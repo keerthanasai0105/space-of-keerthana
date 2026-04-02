@@ -85,37 +85,78 @@ return [
     //  To add a new category: copy one block & add it to the array.
     //  To add a skill: just add a string to the 'items' array.
     // ─────────────────────────────────────────────
-    'skills' => [
+   'skills' => [
         [
             'icon'     => '⚡',
-            'category' => 'Programming',
-            'items'    => ['Python', 'PHP', 'Java', 'HTML', 'CSS'],
-        ],
-        [
-            'icon'     => '🤖',
-            'category' => 'AI / ML',
-            'items'    => [
-                'Machine Learning',
-                'Deep Learning',
-                // 'SpeechBrain', 'OpenAI Whisper', 'Scikit-learn'
-                'Gen Ai',
-            ],
+            'category' => 'Programming Languages',
+            'items'    => ['Python', 'PHP', 'Java'],
         ],
         [
             'icon'     => '🌐',
+            'category' => 'Web Technologies',
+            'items'    => [
+                'HTML',
+                'CSS',
+                'JavaScript',
+                'TypeScript',
+                'Bootstrap',
+                'REST API Integration',
+            ],
+        ],
+        [
+            'icon'     => '🤖',
+            'category' => 'AI / Data Skills',
+            'items'    => [
+                'Machine Learning (Scikit-learn)',
+                // 'Deep Learning (TensorFlow/PyTorch)',
+                'Generative AI (LLMs, Prompt Engineering)',
+                'Agentic AI (Autonomous workflows, tool usage)',
+            ],
+        ],
+        [
+            'icon'     => '🧩',
             'category' => 'Frameworks',
-            'items'    => ['Laravel', 'Django', 'MVC Architecture'],
+            'items'    => ['Laravel', 'Django', 'Angular', 'Spring Boot'],
         ],
         [
             'icon'     => '📊',
-            'category' => 'Tools & Databases',
+            'category' => 'Data & Tools',
             'items'    => ['Power BI', 'Tableau', 'MySQL', 'MS Excel'],
+        ],
+        [
+            'icon'     => '🧠',
+            'category' => 'Concepts',
+            'items'    => [
+                'MVC Architecture',
+                'REST APIs',
+                'Object-Oriented Programming (OOP)',
+                // 'Client-Server Architecture',
+                // 'Feature Engineering',
+                // 'Model Evaluation',
+                // 'Database Normalization',
+                // 'System Design (Basics)',
+            ],
         ],
         [
             'icon'     => '🤝',
             'category' => 'Soft Skills',
-            'items'    => ['Team Management', 'Presentation', 'Storytelling', 'Problem Solving'],
+            'items'    => [
+                'Team Management',
+                'Presentation',
+                'Storytelling',
+                'Problem Solving',
+            ],
         ],
+        // [
+        //     'icon'     => '⚙️',
+        //     'category' => 'Developer Tools',
+        //     'items'    => [
+        //         'Git',
+        //         'GitHub',
+        //         'npm',
+        //         'Composer',
+        //     ],
+        // ],
         // [
         //     'icon'     => '📜',
         //     'category' => 'Certifications',
