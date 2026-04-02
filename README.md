@@ -2,7 +2,7 @@
 
 Personal portfolio built with **Laravel** + **Blade Templates**.
 
-🔗 Live: *(add URL after deployment)*  
+🔗 Live: [space-of-keerthana](https://space-of-keerthana.up.railway.app)
 👤 LinkedIn: [keerthanasai2003](https://www.linkedin.com/in/keerthanasai2003)
 
 ---

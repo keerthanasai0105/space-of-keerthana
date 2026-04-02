@@ -1,7 +1,7 @@
 <section class="sw projects" id="projects">
 
     <div class="sh reveal">
-        <div class="sh__num">// 04</div>
+        <!-- <div class="sh__num">// 04</div> -->
         <h2 class="sh__title">Selected <em>Projects</em></h2>
     </div>
 

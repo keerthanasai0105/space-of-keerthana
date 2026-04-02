@@ -1,7 +1,7 @@
 <section class="sw skills" id="skills">
 
     <div class="sh reveal">
-        <div class="sh__num">// 02</div>
+        <!-- <div class="sh__num">// 02</div> -->
         <h2 class="sh__title">Skills & <em>Technologies</em></h2>
     </div>
 

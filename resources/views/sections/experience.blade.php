@@ -1,7 +1,7 @@
 <section class="sw experience" id="experience">
 
     <div class="sh reveal">
-        <div class="sh__num">// 03</div>
+        <!-- <div class="sh__num">// 03</div> -->
         <h2 class="sh__title">Work <em>Experience</em></h2>
     </div>
 

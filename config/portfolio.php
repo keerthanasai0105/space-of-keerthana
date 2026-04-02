@@ -17,16 +17,16 @@ return [
         'name_first'  => 'Kopanathi',
         'name_last'   => 'Keerthana Sai',
         'initials'    => 'KS',
-        'role'        => 'Software Trainee / AI & Data Science Graduate',
+        'role'        => 'Trainee Software Engineer / AI & Data Science Graduate',
         'location'    => 'Visakhapatnam, India',
         'status'      => 'Available for opportunities',
         'bio'         => [
-            'I\'m a <strong>B.Tech graduate in AI & Data Science</strong> from Vignan\'s Institute of Information Technology (CGPA: 8.88/10), currently working as a Software Trainee at Sails Software Solutions.',
+            'I\'m a <strong>B.Tech graduate in AI & Data Science</strong> from Vignan\'s Institute of Information Technology (CGPA: 8.88/10), currently working as a Trainee Software Engineer at Sails Software Solutions.',
             'My experience spans building <strong>speech diarization systems</strong> at L&T using SpeechBrain & Whisper, predicting industrial parameters at RINL with Random Forest, and now diving into <strong>PHP & Laravel</strong> backend development.',
             'I adapt fast, love tackling real-world problems with data, and thrive where <strong>AI meets practical software</strong>. When I\'m not coding, you\'ll find me lost in a novel or discovering new music.',
         ],
-        'photo'       => null, // Set to '/images/keerthana.jpg' after adding your photo to public/images/
-        'open_to_work'=> true,
+        'photo'       => 'images/ProfilePic2.jpg', // Set to '/images/keerthana.jpg' after adding your photo to public/images/
+        'open_to_work' => true,
     ],
 
     // ─────────────────────────────────────────────
@@ -35,8 +35,8 @@ return [
     'info' => [
         ['key' => 'Location',     'value' => 'Andhra Pradesh, India'],
         ['key' => 'Degree',       'value' => 'B.Tech — AI & DS, 2025'],
-        ['key' => 'Current Role', 'value' => 'Software Trainee'],
-        ['key' => 'Languages',    'value' => 'Telugu · Hindi · English'],
+        ['key' => 'Current Role', 'value' => 'Trainee Software Engineer at Sails Software Solutions'],
+        ['key' => 'Languages',    'value' => 'Telugu · English · Hindi'],
         ['key' => 'Email',        'value' => 'k.keerthanasai2003@gmail.com'],
         ['key' => 'Interests',    'value' => 'Novels · Music · AI'],
     ],
@@ -45,9 +45,9 @@ return [
     //  HERO STATS (3 numbers shown on hero section)
     // ─────────────────────────────────────────────
     'stats' => [
-        ['number' => '4+',  'label' => 'Internships'],
-        ['number' => '8.88','label' => 'CGPA'],
-        ['number' => '5K+', 'label' => 'Data Points Analyzed'],
+        ['number' => '8.88', 'label' => 'CGPA'],
+        ['number' => '2025', 'label' => 'Graduated'],
+        ['number' => '3',    'label' => 'Projects'],
     ],
 
     // ─────────────────────────────────────────────
@@ -66,14 +66,18 @@ return [
             'value' => 'keerthanasai2003',
             'href'  => 'https://www.linkedin.com/in/keerthanasai2003',
         ],
-        [
-            'icon'  => '📞',
-            'label' => 'Phone',
-            'value' => '+91 98858 63963',
-            'href'  => 'tel:+919885863963',
-        ],
-        // Add GitHub later:
-        // ['icon' => '🐙', 'label' => 'GitHub', 'value' => 'github.com/yourhandle', 'href' => 'https://github.com/yourhandle'],
+        // [
+        //     'icon'  => '📞',
+        //     'label' => 'Phone',
+        //     'value' => '+91 98858 63963',
+        //     'href'  => 'tel:+919885863963',
+        // ],
+        // [
+        //     'icon' => '🐙',
+        //     'label' => 'GitHub',
+        //     'value' => 'github.com/yourhandle',
+        //     'href' => 'https://github.com/yourhandle'
+        // ],
     ],
 
     // ─────────────────────────────────────────────
@@ -85,12 +89,17 @@ return [
         [
             'icon'     => '⚡',
             'category' => 'Programming',
-            'items'    => ['Python', 'Java', 'PHP', 'HTML', 'CSS'],
+            'items'    => ['Python', 'PHP', 'Java', 'HTML', 'CSS'],
         ],
         [
             'icon'     => '🤖',
             'category' => 'AI / ML',
-            'items'    => ['Machine Learning', 'Deep Learning', 'SpeechBrain', 'OpenAI Whisper', 'Scikit-learn'],
+            'items'    => [
+                'Machine Learning',
+                'Deep Learning',
+                // 'SpeechBrain', 'OpenAI Whisper', 'Scikit-learn'
+                'Gen Ai',
+            ],
         ],
         [
             'icon'     => '🌐',
@@ -107,11 +116,11 @@ return [
             'category' => 'Soft Skills',
             'items'    => ['Team Management', 'Presentation', 'Storytelling', 'Problem Solving'],
         ],
-        [
-            'icon'     => '📜',
-            'category' => 'Certifications',
-            'items'    => ['Python', 'HTML/CSS', 'Tableau', 'Cisco CCNA (1,2)', 'Cyber Security'],
-        ],
+        // [
+        //     'icon'     => '📜',
+        //     'category' => 'Certifications',
+        //     'items'    => ['Python', 'HTML/CSS', 'Tableau', 'Cisco CCNA (1,2)', 'Cyber Security'],
+        // ],
     ],
 
     // ─────────────────────────────────────────────
@@ -122,7 +131,13 @@ return [
         [
             'period'  => 'Jan 2026 — Present',
             'company' => 'Sails Software Solutions',
-            'role'    => 'Software Trainee',
+            'role'    => 'Trainee Software Engineer',
+            'points'  => [],
+        ],
+        [
+            'period'  => 'Aug 2025 — Dec 2025',
+            'company' => 'Sails Software Solutions',
+            'role'    => 'Software Trainee Intern',
             'points'  => [
                 'Trained in Java, then successfully transitioned to PHP and Laravel tech stack.',
                 'Implemented Laravel MVC architecture — migrations, controllers, and authentication systems.',
@@ -139,25 +154,16 @@ return [
                 'Automated end-to-end Python audio pipeline delivering speaker-tagged transcripts in real-time.',
             ],
         ],
-        [
-            'period'  => 'Apr 2024 — May 2024',
-            'company' => 'Cognifyz',
-            'role'    => 'Data Science Intern',
-            'points'  => [
-                'Cleaned and transformed restaurant datasets for statistical and visual analysis.',
-                'Conducted EDA to uncover patterns in location data and customer behavior.',
-            ],
-        ],
-        [
-            'period'  => 'May 2023 — Jun 2023',
-            'company' => 'RINL — VSP',
-            'role'    => 'Project Intern',
-            'points'  => [
-                'Led ML project predicting Blast Furnace parameters from large-scale industrial datasets.',
-                'Applied data cleaning, feature engineering, and visualization for pattern discovery.',
-                'Managed a small team ensuring on-time delivery and thorough documentation.',
-            ],
-        ],
+        // [
+        //     'period'  => 'May 2023 — Jun 2023',
+        //     'company' => 'RINL — VSP',
+        //     'role'    => 'Project Intern',
+        //     'points'  => [
+        //         'Led ML project predicting Blast Furnace parameters from large-scale industrial datasets.',
+        //         'Applied data cleaning, feature engineering, and visualization for pattern discovery.',
+        //         'Managed a small team ensuring on-time delivery and thorough documentation.',
+        //     ],
+        // ],
     ],
 
     // ─────────────────────────────────────────────
@@ -189,5 +195,7 @@ return [
             'stack' => ['PHP', 'MySQL', 'HTML', 'CSS'],
         ],
     ],
+
+
 
 ];

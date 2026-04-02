@@ -11,6 +11,9 @@
 
     {{-- Portfolio CSS --}}
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}"/>
+
+    {{-- Favicon --}}
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}"/>
 </head>
 <body>
 

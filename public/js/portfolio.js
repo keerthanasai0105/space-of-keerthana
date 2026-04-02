@@ -57,5 +57,14 @@ document.addEventListener('DOMContentLoaded', () => {
             if (target) target.scrollIntoView({ behavior: 'smooth' });
         });
     });
+    // ── FIX EXTERNAL LINK CLICKS WITH CUSTOM CURSOR ───────
+    // document.querySelectorAll('a').forEach(link => {
+    //     link.addEventListener('click', function(e) {
+    //         const href = this.getAttribute('href');
+    //         if (href && href.startsWith('http')) {
+    //             window.open(href, '_blank');
+    //         }
+    //     });
+    // });
 
 });

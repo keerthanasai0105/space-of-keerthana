@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#040d0c"/>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+        font-family="Georgia, serif" font-size="15" font-weight="700"
+        font-style="italic" fill="#14b8a6" letter-spacing="0.5">KS</text>
+</svg>

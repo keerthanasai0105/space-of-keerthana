@@ -28,8 +28,12 @@ body  {
     background: var(--bg);
     color: var(--text);
     overflow-x: hidden;
-    cursor: none;
+    /* cursor: none; */
 }
+/* a, button, .contact-card {
+    cursor: none !important;
+    pointer-events: auto !important;
+} */
 
 /* ── NOISE OVERLAY ───────────────────────────────────────── */
 body::before {
@@ -426,15 +430,26 @@ body::before {
     position: relative; overflow: hidden;
 }
 .contact::before {
-    content: ''; position: absolute; top: 50%; left: 50%;
+    content: ''; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px; height: 600px; border-radius: 50%;
+    width: 600px; 
+    height: 600px; 
+    border-radius: 50%;
     background: radial-gradient(circle, rgba(20,184,166,.06) 0%, transparent 70%);
+    z-index: -1;
 }
 .contact__heading { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 8vw, 6.5rem); font-weight: 300; font-style: italic; color: var(--text); margin-bottom: 1rem; line-height: 1; }
 .contact__heading em { color: var(--teal-bright); }
 .contact__sub { font-size: .85rem; color: var(--text-muted); letter-spacing: .2em; text-transform: uppercase; margin-bottom: 3rem; }
-.contact__cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; }
+.contact__cards { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; gap: 1rem; 
+    color: red;
+}
 .contact-card {
     display: flex; align-items: center; gap: .8rem;
     background: var(--surface); border: 1px solid var(--border);

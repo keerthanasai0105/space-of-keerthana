@@ -21,7 +21,7 @@
         {{-- Text --}}
         <div class="about__text reveal">
             <div class="sh">
-                <div class="sh__num">// 01</div>
+                <!-- <div class="sh__num">// 01</div> -->
                 <h2 class="sh__title">About <em>Me</em></h2>
             </div>
 
